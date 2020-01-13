@@ -17,6 +17,7 @@
             font-family: Roboto, monospace;
             font-size: 24px;
             color: rgba(255, 255, 255, 0.9);
+            margin-left: 10px;
         }
         .smaller-profile-picture{
             width: 100px; 
@@ -37,14 +38,25 @@
         .background-black{
             background-color: rgba(15, 15, 15, 0.95);
         }
+
+        .header{
+            padding:15px 0px 0px 15px;
+        }
+
+        .btnSocial{
+            margin-right: 5px;
+        }
     </style>
     <title>Mario Rodrigues - Front-end</title>
 </head>
 <body>
     <header class="background-black">
-        <img class="smaller-profile-picture" src="img/perfil.jpg">
-        <h1 class="name-title">Mario Rodrigues</h1>
-        <nav><a class="button-nav" href="#sobre-mim">Sobre mim</a> <a class="button-nav" href="#publicacoes">Publicações</a></nav>
+        <div class="header">
+            <img class="smaller-profile-picture" src="img/perfil.jpg">
+            <h1 class="name-title">Mario Rodrigues</h1>
+            <nav><a class="button-nav" href="#sobre-mim">Sobre mim</a> <a class="button-nav" href="#publicacoes">Publicações</a></nav>
+        </div>
+        
     </header>
     <body>
         <main>
@@ -55,10 +67,10 @@
                 <p>Ahhh! Eu adoro fazer um samba com os amigos, bora fazer um churrasco!?</p>
                 
                 <p>
-                    <a target="_blank" href="https://www.linkedin.com/in/mario-rodrigues-9a928521/"><img src="img/icons/linkedin.png" placeholder="Linkedin"></a>
-                    <a target="_blank" href="https://github.com/mariojvr"><img src="img/icons/github.png" placeholder="Github"></a>
-                    <a target="_blank" href="https://www.instagram.com/mariojvr/"><img src="img/icons/instagram.png" placeholder="Instagram"></a>
-                    <a target="_blank" href="https://www.facebook.com/mariojvrodrigues"><img src="img/icons/facebook.png" placeholder="Facebook"></a>
+                    <a class="btnSocial" target="_blank" href="https://www.linkedin.com/in/mario-rodrigues-9a928521/"><img src="img/icons/linkedin.png" ></a>
+                    <a class="btnSocial"target="_blank" href="https://github.com/mariojvr"><img src="img/icons/github.png"></a>
+                    <a class="btnSocial"target="_blank" href="https://www.instagram.com/mariojvr/"><img src="img/icons/instagram.png"></a>
+                    <a class="btnSocial"target="_blank" href="https://www.facebook.com/mariojvrodrigues"><img src="img/icons/facebook.png"></a>
                 </p>
             </div>
             <hr>
