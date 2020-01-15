@@ -20,8 +20,8 @@
             margin-left: 10px;
         }
         .smaller-profile-picture{
-            width: 100px; 
-            height: 100px; 
+            width: 75px; 
+            height: 75px; 
             border-radius: 50%;
         }
 
@@ -41,10 +41,24 @@
 
         .header{
             padding:15px 0px 0px 15px;
+            height: 85px;
+            margin: 0px 0px 10px 0px;
         }
 
         .btnSocial{
             margin-right: 5px;
+        }
+
+        .painel{
+            border: rgba(0,0,0,0.25) 1px solid;
+            border-radius: 5px;
+            margin: 10px 10px;
+            padding: 10px 25px 0px 25px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            
+        }
+        #sobre-mim{
+            text-align: center;
         }
     </style>
     <title>Mario Rodrigues - Front-end</title>
@@ -54,20 +68,20 @@
         <div class="header">
             <a href="index.html">
                 <img class="smaller-profile-picture" src="img/perfil.jpg">
-                <h1 class="name-title">Mario Rodrigues</h1>
+                <!--<h1 class="name-title">Mario Rodrigues</h1>-->
             </a>
-            <nav><a class="button-nav" href="#sobre-mim">Sobre mim</a> <a class="button-nav" href="#publicacoes">Publicações</a></nav>
+           <!-- <nav ><a class="button-nav" href="#sobre-mim">Sobre mim</a> <a class="button-nav" href="#publicacoes">Publicações</a></nav>-->
         </div>
         
     </header>
     <body>
         <main>
-            <div> 
+            <div class="painel"> 
                 <h1 id="sobre-mim">Sobre mim</h1>
                 <p>Olá, me chamo Mario Rodrigues, tenho 7 anos de experiência em Administração de Banco de Dados (DBA) e estou me aventurando no universo Front-End. Sou apaixonado por tecnologia, principalmente pelo processo criativo de desenvolvimento de software, o que me levou a voltar a programar.</p>
                 <p>Vou compartilhar minhas experiências (não somente coisas técnicas) de todo o processo que está sendo a mudança de carreira.</p>
                 <p>Ahhh! Eu adoro fazer um samba com os amigos, bora fazer um churrasco!?</p>
-                
+                <hr>
                 <p>
                     <a class="btnSocial" target="_blank" href="https://www.linkedin.com/in/mario-rodrigues-9a928521/"><img src="img/icons/linkedin.png" ></a>
                     <a class="btnSocial"target="_blank" href="https://github.com/mariojvr"><img src="img/icons/github.png"></a>
@@ -75,8 +89,7 @@
                     <a class="btnSocial"target="_blank" href="https://www.facebook.com/mariojvrodrigues"><img src="img/icons/facebook.png"></a>
                 </p>
             </div>
-            <hr>
-            <div>
+            <div class="painel">
                 <h1 id="publicacoes">Publicações</h1>
                 <section>
 
