@@ -1,18 +1,43 @@
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding:15px 0px 0px 15px;
+    height: 85px;
+    margin: 0px 0px 10px 0px;
+}
+
+body{
+    margin-top: 150px;
+}
+
+.smaller-profile-picture{
+    width: 75px; 
+    height: 75px; 
+    border-radius: 50%;
+}
 .name-title{
     font-family: Baloo Bhai, monospace;
     font-size: 32px;
     color: rgba(255, 255, 255, 0.9);
 }
+
+.background-black{
+    background-color: rgba(15, 15, 15, 0.95);
+}
+
+nav{
+    position: absolute;
+    right: 65px;
+    top: 50px;
+}
+
 .button-nav{
     font-family: Roboto, monospace;
     font-size: 24px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 100);
     margin-left: 10px;
-}
-.smaller-profile-picture{
-    width: 75px; 
-    height: 75px; 
-    border-radius: 50%;
 }
 
 h1{
@@ -25,22 +50,14 @@ p{
     text-align: justify;
 }
 
-.background-black{
-    background-color: rgba(15, 15, 15, 0.95);
-}
-
-.header{
-    padding:15px 0px 0px 15px;
-    height: 85px;
-    margin: 0px 0px 10px 0px;
-}
-
 .btnSocial{
     margin-right: 5px;
 }
+
 .social-midias{
     text-align: right;
 }
+
 .painel{
     width: 500px;
     border-radius: 5px;
@@ -48,6 +65,7 @@ p{
     padding: 10px 25px 5px 25px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
 }
+
 #sobre-mim{
     text-align: center;
 }
