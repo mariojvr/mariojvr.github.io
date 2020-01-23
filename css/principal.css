@@ -1,4 +1,9 @@
-header{
+body{
+    margin-top: 150px;
+}
+
+.header{
+    background-color: rgba(15, 15, 15, 0.95);
     position: fixed;
     top: 0px;
     left: 0px;
@@ -8,46 +13,45 @@ header{
     margin: 0px 0px 10px 0px;
 }
 
-body{
-    margin-top: 150px;
-}
-
-.smaller-profile-picture{
+.header-profile-picture{
     width: 75px; 
     height: 75px; 
     border-radius: 50%;
 }
-.name-title{
+
+.header-title{
     font-family: Baloo Bhai, monospace;
     font-size: 32px;
     color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 10px;
+    left: 100px;
 }
 
-.background-black{
-    background-color: rgba(15, 15, 15, 0.95);
+.header a{
+    text-decoration: none;
 }
 
-nav{
+.nav{
     position: absolute;
     right: 65px;
     top: 50px;
 }
 
-.button-nav{
+.nav a{
     font-family: Roboto, monospace;
     font-size: 24px;
-    color: rgba(255, 255, 255, 100);
+    color: rgba(204, 204, 204, 100);
     margin-left: 10px;
+}
+
+.nav a:hover{
+    color: rgba(255, 255, 255, 100);
 }
 
 h1{
     font-family: Open Sans, monospace;
     font-size: 42px;
-}
-p{
-    font-family: Open Sans, monospace;
-    font-size: 20px;
-    text-align: justify;
 }
 
 .btnSocial{
@@ -58,14 +62,20 @@ p{
     text-align: right;
 }
 
-.painel{
+.sobre-mim{
     width: 500px;
     border-radius: 5px;
-    margin: 50px 35%;
+    margin: auto;
     padding: 10px 25px 5px 25px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-#sobre-mim{
+.sobre-mim h1{
     text-align: center;
+}
+
+p{
+    font-family: Open Sans, monospace;
+    font-size: 20px;
+    text-align: justify;
 }
