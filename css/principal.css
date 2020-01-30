@@ -27,11 +27,11 @@ body{
     top: 10px;
     left: 100px;
 
-    animation-name: start;
+    animation-name: move-title;
     animation-duration: 3s;
 }
 
-@keyframes start {
+@keyframes move-title {
 
     0%{
         left: 150px;
@@ -92,15 +92,32 @@ h1{
     text-align: right;
 }
 
-.sobre-mim{
+.about{
     width: 500px;
     border-radius: 5px;
     margin: auto;
     padding: 10px 25px 5px 25px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.19), 0 3px 6px rgba(0,0,0,0.23);
+
+    animation-name: show-about;
+    animation-duration: 4s;
 }
 
-.sobre-mim h1{
+@keyframes show-about {
+
+    0% {
+        margin-top: 300px;
+        top: 1000px;
+        opacity: 0;
+    }
+
+    100% {
+        margin-top: 100px;
+        opacity: 1;
+    }
+}
+
+.about h1{
     text-align: center;
 }
 
