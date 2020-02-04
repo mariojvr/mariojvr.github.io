@@ -26,22 +26,6 @@ body{
     position: absolute;
     top: 10px;
     left: 100px;
-
-    animation-name: move-title;
-    animation-duration: 3s;
-}
-
-@keyframes move-title {
-
-    0%{
-        left: 150px;
-        opacity: 0;
-    }
-
-    100%{
-        left: 100px;
-        opacity: 1;
-    }
 }
 
 .header a{
@@ -106,13 +90,10 @@ h1{
 @keyframes show-about {
 
     0% {
-        margin-top: 300px;
-        top: 1000px;
         opacity: 0;
     }
 
     100% {
-        margin-top: 100px;
         opacity: 1;
     }
 }
