@@ -56,3 +56,27 @@ header h1 {
 }
 
 
+.publicacao {
+    background-color: #ffffff;
+    border: 1px solid #D3D3D3;
+    margin: 100px 20px;
+    padding: 20px;
+}
+
+.publicacao time{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #708090;
+}
+.publicacao h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.publicacao p {
+    color: #A9A9A9;
+    font-size: 18px;
+    text-align: justify;
+}
+
