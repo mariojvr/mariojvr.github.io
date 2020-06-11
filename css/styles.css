@@ -1,82 +1,37 @@
-body {
-    background-color: 	#F0F8FF;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.centralizar {
-    width: 940px;
-    margin: 0 auto;
-    position: relative;
+body{
+    font-family: Arial;
+    font-size: 24px;
+    height: 100vh;
 }
 
 header {
-    background-color: #2F4F4F;
-    height: 64px;
-    width: 100%;
-    text-transform: lowercase;
-    display: fixed;
-    color: #ffffff;
+    position: fixed;
+    background-color:#e6e6e6;
+    width: 100vw;
+    box-shadow: 0em 0.1em 0.3em #cccccc;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header li {
+    list-style: none;
 }
 
 header a {
+    color: #b3b3b3;
     text-decoration: none;
+    padding: 10px 20px;
 }
 
-header .logo {
-    border-radius: 50%;
-    margin: 10px 10px;  
-    width: 45px;
-}
-
-header h1 {
-    color: #ffffff;
-    display: inline-block;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 20px 5px;
-    vertical-align: top;
-}
-
-.nav-principal {
-    display: inline-block;
-    position: absolute;
-    top: 25px;
-    right: 10px;
-}
-
-.nav-principal li{
-    display: inline;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0 5px 0;
-    text-decoration: none;
-}
-.nav-principal a {
+header a:hover {
     color: #ffffff;
 }
-
-
-.publicacao {
-    background-color: #ffffff;
-    border: 1px solid #D3D3D3;
-    margin: 100px 20px;
-    padding: 20px;
-}
-
-.publicacao time{
-    margin-top: 10px;
-    font-size: 14px;
-    color: #708090;
-}
-.publicacao h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin: 20px 0;
-}
-
-.publicacao p {
-    color: #A9A9A9;
-    font-size: 18px;
-    text-align: justify;
-}
-
