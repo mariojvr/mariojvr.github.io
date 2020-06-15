@@ -12,12 +12,12 @@ body{
 
 header {
     align-items: center;
-    background-color: #2f879d;
+    background-color: #4dbfd9;
+    color: #fff;
     display: flex;
     flex-direction: column;
     height: 100vh;
     justify-content: space-evenly;
-    color: #fff;
 }
 
 .menu {
@@ -53,15 +53,16 @@ header {
     margin-top: 6.1em;
 }
 .site-title {
-    font-size: 70px;
     font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 70px;
 }
 
-.image-title {
-    width: 40%;
-}
 
 .site-subtitle {
     font-size: 12px;
     text-align: right;
+}
+
+.image-title {
+    width: 40%;
 }
