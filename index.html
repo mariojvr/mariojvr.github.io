@@ -3,29 +3,34 @@
     <head>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet"> 
+        <!--<link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Rammetto+One&family=Roboto&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/styles.css"  type="text/css">
-        <title>HOME | Mario Rodrigues - Front-end Developer</title>
+        <title>Mario Rodrigues - Front-end Developer</title>
     </head>
     <body>
-            <header>
-                <nav class="menu">
-                    <ul>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Portfólio</a></li>
-                        <li><a href="#">Contato</a></li>
-                    </ul>
-                </nav>
-                <div class="container-title">
-                    <h1 class="site-title">Mario Rodrigues</h1>
-                    <h2 class="site-subtitle">Frontend Developer Jr</h2>
+        <nav id="navbar" class="navbar">
+            <a href="#welcome-section">Sobre mim</a>
+            <a href="#projects">Trabalhos</a>
+            <a href="#contacts">Contatos</a>
+        </nav>
+        <main>
+
+            <section id="welcome-section" class="welcome-section">
+                <div class="centralize">
+                    <h1>Mario Rodrigues</h1>
+                    <h2>Front-end</h2>
                 </div>
-                <img class="image-title" src="img/title-image.png">
-            </header>
-            <main>
-                <h2>
-                    Testando
-                </h2>
-            </main>
+            </section>
+    
+            <section id="projects">
+                <h2 class="project-tile">Meus projetos</h2>
+                <a href="https://mariojvr.github.io/tribute_page">Tribute page</a>
+            </section>
+
+            <a id="profile-link" href="https://www.github.com/mariojvr">Github</a>
+        </main>
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>
