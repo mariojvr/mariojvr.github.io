@@ -21,10 +21,10 @@ body{
 }
 
 .navbar a {
-    text-decoration: none;
     color: #a6a6a6;
     font-size: 24px;
     padding: 0 1em 0 1em;
+    text-decoration: none;
 }
 
 .navbar a:hover {
@@ -49,47 +49,48 @@ body{
 }
 
 .projects {
-    padding-top: 54px;
+    align-items: center;
     background-color: #8c8c8c;
-    font-family: 'Orbitron', sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    padding-top: 54px;
 }
 
 .project-tile {
     color:  #000000;
+    font-size: 62px;
     padding: 1em;
     text-align: center;
-    font-size: 62px;
 }
 
 .projects-grid {
+    column-gap: 5em;
     display: grid;
     grid-template-columns: 410px 410px;
-    column-gap: 5em;
-    row-gap: 5em;
     padding: 2em;
+    row-gap: 5em;
 }
 
 
 .project {
-    padding: 0.3em;
     background-color: #1a1a1a;
+    border-radius: 5px;
+    padding: 0.45em;
     text-decoration: none;
 }
 
 .project img {
-    width: 400px;
     height: 400px;
+    width: 400px;
 }
 
 .project p {
     color: #a6a6a6;
-    text-transform: uppercase;
-    text-align: center;
     font-size: 18px;
     margin: 1em 0;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .project p:hover {
@@ -99,29 +100,29 @@ body{
 }
 
 .contacts {
-    padding-top: 54px;
-    margin: 1em 0;
     color: #999999;
+    margin: 1em 0;
+    padding-top: 54px;
     text-align: center;
 }
 
 .contacts h2{
-    font-size: 60px;
     font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
 }
 
 .contact-box {
     display: flex;
     flex-direction: row;
-    margin: 10em 25em;
     justify-content: space-around;
+    margin: 10em 25em;
 }
 
 .profile-link {
     color: #999999;
+    font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
 }
 
 .profile-link img {
@@ -130,11 +131,11 @@ body{
 
 .centralize {
     position: absolute;
-    z-index: -1;
-    top: 50%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     text-align: right;
+    z-index: -1;
 }
 
 .footer {
@@ -145,3 +146,21 @@ body{
     padding: 1em 2em 1em 0;
 }
 
+
+@media (max-width:900px){
+
+    .projects-grid {
+        grid-template-columns: 410px;
+    }
+
+    .project p:hover {
+        color: #ffffff;
+        font-size: 18px;
+        margin: 1em 0;
+    }
+
+    .contact-box {
+        margin: 5em 15em;
+    }
+
+}
